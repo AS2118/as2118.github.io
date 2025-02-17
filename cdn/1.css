@@ -1,0 +1,209 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body {
+    background-color: #FFF;
+    color: #333;
+    font-size: 0.16rem;
+    font-family: 'microsoft yahei', Simsun, Tahoma, Geneva, 'Heiti SC' !important;
+}
+
+html,
+body {
+    width:100%;
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    background: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+
+.inlineBlock {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.textClip {
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: clip;
+}
+
+.textEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.userSelectNone {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*=============与结构无关的常用样式===============*/
+
+
+/* 浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+a.two{color:blue;text-decoration:none;}
+
+.fr {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+

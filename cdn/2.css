@@ -1,0 +1,150 @@
+.clearfix:after {   
+    content: ".";   
+    display: block;
+    clear: both;  
+    visibility: hidden;   
+    height: 0;    
+    font-size:0;   
+}
+.h5_container{overflow: hidden;}
+.head_logo{width:100%;height:.86rem;display: flex;justify-content: space-between;align-items: center;padding:0 .45rem;border:1px solid #f3f3f3;}
+.head_logo a{font-size:.26rem;}
+.refresh{width:.33rem;height:.33rem;background: url("../static/images/refresh@2x.png")/*tpa=http://qwq.tangdouz.com/static/images/refresh@2x.png*/;background-size:100% 100%;background-repeat:no-repeat;}
+.h5_banner{padding:.15rem .3rem .16rem;background:url("../static/images/bg@2x.png")/*tpa=http://qwq.tangdouz.com/static/images/bg@2x.png*/;background-size:100% 100%;background-repeat:no-repeat}
+.logo_114{vertical-align: top;margin-top: .2rem;margin-right:.4rem;display:inline-block;width:1.3rem;height:.6rem;}
+.logo_114 img{width:100%;height:100%;}
+.advertisi_pos{display: inline-block;}
+.advertisi_pos li{width:1.7rem;height:1rem;}
+.advertisi_pos li a,.advertisi_pos li a img{width: 100%;height: 100%;}
+.num_wrap{vertical-align: top;margin-top: -25px;}
+.weather{display: inline-block;vertical-align: top;float: right;margin-right:.3rem;}
+.weather>div{display: inline-block;}
+.weatherImg{width: .6rem;height: .6rem;}
+.weatherImg>img{width: 100%;height: 100%;}
+.address,.status{font-size:.24rem;color:#fff;}
+.number{font-size:.7rem;color:#fff;position: relative;margin-left:.3rem;vertical-align: middle;}
+.number>em{position: absolute;top: -.45rem;}
+.ad_status{margin-left: .3rem;vertical-align: middle;}
+.weatherImg{margin-left:.2rem;vertical-align: middle;}
+#fm{height: 100%;}
+.searchInp{background: #ffffff none repeat scroll 0 0;border: 1px solid #acacac;border-radius: 5px;
+    display: block;height:.7rem;width: 100%;margin:.1rem 0 0 0;position: relative;border: none;}    
+.ts_inp {font-size: .3rem;line-height: 1.3em;width: 80%;opacity: 60%;color: #999;box-sizing: content-box;outline: none;border: none;
+        font-family: "microsoft yahei","Simsun",Tahoma,Geneva,"Heiti SC";position: absolute;top:0;left:.2rem;height:100%;}
+.searchBtn {background: rgba(0, 0, 0, 0) url("../static/images/icon3@2x.png")/*tpa=http://qwq.tangdouz.com/static/images/icon3@2x.png*/ no-repeat scroll 0 0;background-size:100%;border: medium none;
+        float: right;height: .4rem;margin: 0;padding: 0;position: absolute;right: 0.5em;top: 0.4em;width: .4rem;margin-left: 0.2rem}
+.ts_inp_wrap{position: relative;height: 100%;overflow: hidden;}
+.hTitle{font-weight: 800;}
+
+.option_con{z-index:999;position: absolute;top: .67rem;left: 0;background: #fff;display: flex;flex-wrap: wrap;border-radius: 5px 5px 0 0;padding-bottom: .4rem;}
+.option_con>a{width: 50%;display: inline-block;}
+.option_con>a>li{width: 100%;font-size:.24rem;line-height: .6rem;padding-left:.2rem;}
+/* 滚动条 */
+.hot_info{width: 100%;}
+.hot_info .hot_wrapper ul{width: 100%;display:flex;justify-content: space-between;align-items: center;}
+.hot_info .hot_wrapper ul li{flex-shrink:0;padding:.16rem .15rem 0;}
+.hot_info .hot_wrapper ul li a{color:#fff;font-size:.24rem;width: 100%;display: inline-block;}
+.hot_info .hot_wrapper ul li:first-of-type{padding-left:0;}
+.hot_info .hot_wrapper ul li:last-of-type{padding-right:0;}
+
+/* 权威推荐 */
+.inter_nav{padding:.16rem .3rem .3rem;}
+.inter_nav ul{width:100%;height:100%;display: flex;justify-content: space-between;align-items: center;}
+.inter_nav ul li{border:.02rem solid #efefef;border-radius: .5rem;text-align: center;padding:0 .1rem;line-height: .4rem;width:16%;}
+.inter_nav ul li a{font-size:.18rem;margin-bottom: .05rem;display: inline-block;}
+
+/* 名站数据 */
+.famous_wrapper{display: flex;flex-wrap: wrap;}
+.famous_wrapper li{width: 20%;height:auto;font-size:.22rem;text-align: center;padding-bottom:.3rem;}
+.famous_wrapper li a{display: inline-block;}
+.famous_wrapper li a img{width:.84rem;height:.84rem;display: block;margin:0 auto .1rem;border-radius: 10px;}
+/* .famous_wrapper li:nth-of-type(1),.famous_wrapper li:nth-of-type(11),.famous_wrapper li:nth-of-type(6),.famous_wrapper li:nth-of-type(16){text-align: left;} */
+/* .famous_wrapper li:nth-of-type(1) a img,.famous_wrapper li:nth-of-type(11) a img,.famous_wrapper li:nth-of-type(6) a img,.famous_wrapper li:nth-of-type(16) a img{margin:0 0 .1rem 0;} */
+
+
+/* 广告弹窗 */
+.pop-up-ads {position: fixed;top: 0;right: 0;z-index: 9999;width: 100%;height: 100%;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;
+    transition: all 0.3s;opacity: 1;background: rgba(0, 0, 0, 0.8);}
+.hide {opacity: 1;visibility: hidden;}
+.show.pop-up-ads .pop-up-ads-content {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}
+
+.pop-up-ads .pop-up-ads-content {width: 100%;height: 9.6rem;margin-top: 0.4rem;transform: translateY(100%);opacity: 0;-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;transition: all 0.3s;}
+.pop-up-ads .pop-up-ads-content a {display: block;width: 100%;height: 100%;margin-bottom: 0.3rem;}
+a {color: #333;text-decoration: none;}
+.pop-up-ads .pop-up-ads-content img {width: 100%;height: 100%;}
+img {border: 0;}
+.pop-up-ads .pop-up-close {width: 0.6rem;height: 0.6rem;margin: 0 auto;background: url("../static/images/s11_popup_close.png")/*tpa=http://qwq.tangdouz.com/static/images/s11_popup_close.png*/ no-repeat center center;background-size: cover;}
+.fbs11 {position: relative;width: 100%;max-width: 1000px;margin: 0 auto;background: #f7f7f7;padding:.2rem 0 0;}
+.fbs11 img {width: 100%;height: auto;}
+.fbs11 .close {width: 10%;height: 100%;position: absolute;right: 0;bottom: 0;}
+.channel_recommend{padding:0 .3rem;}
+.channel_wrapper{display: flex;justify-content: space-between;align-items: center;padding:.15rem 0;border-top: 1px solid #f3f3f3;}
+.channel_wrapper li{width:1.62rem;height:1.22rem;position: relative;}
+.channel_wrapper li a img{width: 100%;height:100%;}
+.info_nav ul{width:100%;display: flex;justify-content: space-around;align-items: center;line-height: .64rem;color: #666;font-size:.26rem;border-bottom: 1px solid #f3f3f3;}
+.info_nav ul li{position: relative;}
+.active{font-weight: 800;color: #333;}
+.active::after{content: "";position: absolute;bottom:2px;left:15%;width:70%;height: .06rem;border-radius: .03rem;background: #3585ff;}
+.info_nav{top:0;left:0;background: #fff;width: 100%;height:.64rem;z-index:99;display: none;}
+.line_inp{background:url("../static/images/icon5@3x.png")/*tpa=http://qwq.tangdouz.com/static/images/icon5@3x.png*/ no-repeat;width: .02rem;height: .45rem;display: inline-block;position: absolute;top: .1rem;right: .8rem;}
+.recom_con>a>dl>p>.time{float: none;margin-left:.1rem;}
+
+.infocon_wrap dl dt img{width:2.2rem;height:1.48rem;object-fit: cover;}
+.infocon_wrap dl.bigDl dd h2 span:first-child{margin-right: .3rem;}
+.infocon_wrap dl.bigDl dt img{width:6.9rem;height:3.4rem;object-fit: cover;}
+.infocon_wrap dl{position: relative;width:100%;border-bottom: 1px solid #eee;padding:.2rem 0.3rem .22rem;}
+.infocon_wrap dl.lrDl{position: relative;width:100%;height:2.04rem;border-bottom: 1px solid #eee;padding-top:.2rem;}
+.infocon_wrap dl.lrDl dt{position: absolute;left:0;top:.2rem;width: 2.2rem;height: 1.64rem;}
+.infocon_wrap dl.lrDl dt img{width: 100%;height: 100%;object-fit: cover;}
+.infocon_wrap dl.lrDl dd{padding-left:2.4rem;}
+.infocon_wrap dl dd{margin-bottom: .2rem;}
+.infocon_wrap dl dd h2{font-size:.32rem;color:rgba(43,43,43,1);line-height: 0.5rem; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;overflow: hidden;}
+/* .infocon_wrap{padding:0 .3rem;} */
+.infocon_wrap dl.lrDl p{position: absolute;bottom: .26rem;left:2.4rem;}
+.infocon_wrap dl.lrDl p em{margin-left:.15rem;}
+.infocon_wrap dl p{color:#999;font-size: .22rem;margin-top:.1rem;}
+.moreimgDt{display: flex;justify-content: space-around;}
+.tag{margin-right:.2rem;}
+.time{float: right;}
+.infocon_wrap a dl.bookDl{position: relative;width:100%;height:2.9rem;border-bottom: 1px solid #eee;padding-top:.2rem;}
+.infocon_wrap a dl.bookDl dt{position: absolute;left:0;top:.2rem;}
+.infocon_wrap a dl.bookDl dd{padding-left:2.4rem;height: 100%;padding-top:.1rem;}
+.infocon_wrap a dl.bookDl dt img{width:1.88rem;height: 2.5rem;object-fit: cover;display:block;}
+.infocon_wrap a dl.bookDl dd h1{font-size:.32rem;color:#000;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;overflow: hidden;}
+.infocon_wrap a dl.bookDl dd h3{margin-top:.3rem;font-size:.22rem;color:#666;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;overflow: hidden;}
+.hover-button-ads>a{width: 100%;height: 100%;display:block;}
+
+.hover-button-ads {position: fixed;bottom: 150px;right: 15px;z-index: 999;display: block;width: 95px;height: 95px;background-size: cover;
+    -webkit-animation: move 1s .3s infinite alternate ease-in-out;animation: move 1s .3s infinite alternate ease-in-out;}
+.hot_close{width: 100%;line-height: .8rem;text-align: center;background: #f3f3f3;font-weight: 800;color: #666;}
+@keyframes move{0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}33% {-webkit-transform: rotate(-5deg);transform: rotate(-5deg);}
+    66% {-webkit-transform: rotate(5deg);transform: rotate(5deg);}100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+.video_con>a>dl>dt{position: relative;}
+.stopBtn{position: absolute;top: 50%;left: 50%;width: 1.2rem!important;height: 1.2rem!important;margin-left: -.6rem;margin-top: -.6rem;}
+
+
+.iswidth{
+    width: 4.6rem;float: left;
+}
+.isRight{
+    float: right;
+}
+
+.isToTop{
+    width: 0.75rem;
+    height: 0.75rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 0.22rem;
+    z-index: 1000;
+    display: none;
+}
+.isToTop img{
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
